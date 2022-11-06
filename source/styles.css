@@ -13,6 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -260,8 +261,56 @@ ul {
 
 .student-life{
   background-color: #fff;
+  padding-bottom: 5em;
 }
 
+.student-life h3 {
+  text-align: center;
+  font-size: 30px;
+  padding: 3rem 0;
+  text-decoration: underline;
+}
+
+.photos-of-projects{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-div{
+  width: 20em;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-main-photo{
+  background: linear-gradient(rgb(239, 201, 10), rgb(236, 81, 10));
+  width: 300px;
+  height: 300px;
+}
+
+.project-secondary-photo{
+  height: 7em;
+  width: 7em;
+  background: #eb5d5d;
+  border-radius: 100%;
+  border: aquamarine solid 2px;
+  margin-top: -3.5em;
+}
+
+.footer{
+  height:20em;
+  background: linear-gradient(rgb(17, 16, 16), rgb(71, 71, 71));
+  display: flex;
+  padding: 5em;
+  justify-content: space-evenly;
+}
+
+.footer  ul li a {
+  color: white;
+}
 
 @media screen and (max-width: 1000px) {
   .hero{
@@ -284,6 +333,8 @@ ul {
   }
 
 }
+
+
 
 @media screen  and (max-width:600px){
   
