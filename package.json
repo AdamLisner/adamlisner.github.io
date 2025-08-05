@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://AdamLisner.github.io/personal_page",
+  "homepage": "https://adamlisner.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
