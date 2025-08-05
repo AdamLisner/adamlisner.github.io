@@ -1,5 +1,3 @@
-import React from "react";
-
 function App() {
   return (
     // Set Inter font and a default background color
