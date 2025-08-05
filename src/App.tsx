@@ -9,7 +9,7 @@ function App() {
         />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      // Set Inter font and a default background color
+
       <div className="antialiased font-sans bg-white text-gray-900">
         {/* ============================================= */}
         {/* Navigation Bar                             */}
