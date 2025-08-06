@@ -110,7 +110,7 @@ function App() {
              },
              {
               title: "MatKap",
-              description: "First team project at high school, developing an Anroid application for learning history of literature. Not really commercially potencial, but we had great time developing it.",
+              description: "First team project at high school, developing an Android application for learning history of literature. Not really commercially potencial, but we had great time developing it.",
               time: "Oct 2021 - Mar 2022",
               link: "https://play.google.com/store/apps/details?id=cz.matkap&pcampaignid=web_share",
               technologies: ["Java", "Android", "Firebase", "GitHub"]
