@@ -17,7 +17,6 @@ function App() {
           name="description"
           content="Portfolio of Adam Lisner, a software engineering student."
         />
-        <link rel="icon" href="/favicon.ico" />
       </head>
 
       <div className="antialiased font-sans bg-white text-gray-900">
