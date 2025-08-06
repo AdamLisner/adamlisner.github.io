@@ -2,9 +2,8 @@
 const sections = [
   { id: 'hero', label: 'Home' },
   { id: 'about', label: 'About' },
-  { id: 'projects', label: 'Projects' },
   { id: 'experience', label: 'Experience' },
-  { id: 'contact', label: 'Contact' },
+  { id: 'projects', label: 'Projects' },
 ];
 
 export const Navbar = () => {
