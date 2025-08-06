@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
-import "./HeroSection.css"; // Make sure this is still imported
+import "./HeroSection.css"; 
+import CV from "../../assets/AdamLisnerCV.pdf"; // Adjust the path to your CV file
 
 export const HeroSection = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
@@ -166,7 +167,8 @@ export const HeroSection = () => {
           Software Engineering Student
         </p>
         <a
-          href="#projects"
+          href={CV}
+          download={true}
           className="inline-block bg-white/30 text-white font-semibold px-10 py-4 rounded-full shadow-lg hover:bg-white/50  transition-all duration-300 backdrop-blur-lg border border-white/40"
         >
           Download CV
